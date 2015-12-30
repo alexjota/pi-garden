@@ -1,0 +1,21 @@
+{
+  "name": "pi-garden",
+  "version": "0.1.0",
+  "description": "Social and IoT gardening project for raspberry pi",
+  "engines": {
+      "node": ">=4.0.0"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alejandro Jezierski",
+  "license": "MIT",
+  "dependencies": {
+      "onoff": "^1.0.3",
+      "request": "2.67.0"
+  },
+  "bundledDependencies": {
+      "azure-iot-device": "1.0.0-preview.9"
+  }
+}

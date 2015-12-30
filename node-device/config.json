@@ -1,0 +1,12 @@
+{
+  "websiteHost": "[WEBSITE]",
+  "websitePath": "/raspberrypi",
+  "appId": "[APPID]",
+  "appSecret": "[APP SECRET]",
+  "redirectUri": "[REDIRECT URI]",
+  "iotHub": {
+      "deviceId" : "garden-1",
+      "connectionString": "[AZURE IOT HUB CONNECTION STRING]",
+      "interval": 10000
+  }
+}
